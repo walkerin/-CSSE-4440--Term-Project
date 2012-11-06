@@ -35,6 +35,8 @@
 			<div>
 					<?php
 						$page = $_GET['page'];
+						if(empty($page))
+							$page = "welcome";
 						include("$page.html"); 
 					?>
 			</div>
