@@ -21,15 +21,15 @@
 	<body>
 		<div>
 			<header>
-				<h1>Restaurant Name</h1>
+				<h1>Don Durma's Ice Cream Parlor</h1>
 			</header>
 			<nav>
-					<a href="/Term Project/PR1/layout.php?page=welcome">Home</a>
-					<a href="/Term Project/PR1/layout.php?page=location">Location</a>
-					<a href="/Term Project/PR1/layout.php?page=specials">Specials</a>
-					<a href="/Term Project/PR1/layout.php?page=menu">Menu</a>
-					<a href="/Term Project/PR1/layout.php?page=reservations">Reservations</a>
-					<a href="/Term Project/PR1/layout.php?page=contact">Contact</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=welcome">Home</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=location">Location</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=specials">Specials</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=menu">Menu</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=reservations">Reservations</a>
+					<a href="/[CSSE 4440] Term Project/PR1/layout.php?page=contact">Contact</a>
 			</nav>
 
 			<div>
