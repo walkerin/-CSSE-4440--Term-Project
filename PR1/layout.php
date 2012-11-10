@@ -1,9 +1,11 @@
+<?php require("functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<!--[CSSE 4440] Term Project-->
 		<meta http-equiv="content-type" content ="text/html; charset=utf-8"/>
-		<title>[CSSE 4440] Term Project</title>
+		<LINK href="../PR2/stylesheet.css" rel="stylesheet" type="text/css">
+		<title><?php setPageTitle($_GET['page']); ?></title>
 		<meta name="description" content="" />
 		<meta name="author" content="Glenn Bishop, David Enochs, Ian Walker" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
@@ -14,32 +16,27 @@
 	</head>
 
 	<body>
-		<div>
+		<div id="wrapper">
 			<header>
 				<h1>Don Durma's Ice Cream Parlor</h1>
 			</header>
-			<nav>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=welcome">Home</a>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=location">Location</a>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=specials">Specials</a>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=menu">Menu</a>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=reservations">Reservations</a>
-					<a href="/CSSE4440TermProject/PR1/layout.php?page=contact">Contact</a>
+			<nav class="clearfix">
+				<ul class="clearfix">
+					<li><a href="../PR1/layout.php?page=welcome">Home</a></li>
+					<li><a href="../PR1/layout.php?page=location">Location</a></li>
+					<li><a href="../PR1/layout.php?page=specials">Specials</a></li>
+					<li><a href="../PR1/layout.php?page=menu">Menu</a></li>
+					<li><a href="../PR1/layout.php?page=reservations">Reservations</a></li>
+					<li><a href="../PR1/layout.php?page=contact">Contact Us</a></li>
+				</ul>
 			</nav>
 
-			<div>
-					<?php
-						$page = $_GET['page'];
-						if(empty($page))
-							$page = "welcome";
-						include("$page.html"); 
-					?>
+			<div class="<?php setElementClass($_GET['page']); ?>" id="content-area">
+					<?php displayContent($_GET['page']); ?>
 			</div>
 
 			<footer>
-				<p>
-					&copy; Copyright  by Glenn Bishop, David Enochs, Ian Walker
-				</p>
+					&copy; Copyright 2012 by Glenn Bishop, David Enochs, Ian Walker
 			</footer>
 		</div>
 	</body>

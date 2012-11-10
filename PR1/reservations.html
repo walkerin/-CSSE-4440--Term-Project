@@ -1,21 +1,21 @@
 <h1>Reservations</h1>
-	<form action="doSomething" method="post">
-		<div class="container">
-			<fieldset>
-				<legend>Reservation Form</legend>
-					Name: <div class="line"><input type="text" name="user_name" value="Name Here"></div>
+<form action="doSomething" method="post">
+	<div class="container">
+		<fieldset>
+			<legend>Reservation Form</legend>
+				Name: <div class="line"><input type="text" name="user_name" placeholder="Name Here"></div>
+			
+				Email: <div class="line"><input type="email" name="user_email" placeholder="somebody@somewhere.com"></div>
+			
+				Phone Number: <div class="line"><input type="tel" name="user_tel" placeholder="(999)555-1212"></div>
+	
+				Table: <div class="line"><input type="text" name="user_location" placeholder="Table"></div>
 				
-					Email: <div class="line"><input type="email" name="user_email" value="somebody@somewhere.com"></div>
+				Date: <div class="line"><input type="date" name="reservation_date"/></div>
 				
-					Phone Number: <div class="line"><input type="tel" name="user_tel" value="(999)555-1212"></div>
-		
-					Table: <div class="line"><input type="text" name="user_location" value="Table"></div>
-					
-					Date: <div class="line"><input type="date" name="reservation_date"/></div>
-					
-					Time: <div class="line"><input type="time" name="reservation_time"/></div>
-					
-			</fieldset>
-		<input type="submit" value="Submit">
-		</div>
-	</form>
+				Time: <div class="line"><input type="time" name="reservation_time"/></div>
+				
+		</fieldset>
+	<input type="submit" value="Submit">
+	</div>
+</form>
