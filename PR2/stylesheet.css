@@ -93,6 +93,30 @@ footer {
 	clear: both;
 }
 
+/*LOCATION STYLES*********************************************************/
+#address {
+	float:left;
+	margin: 5px;
+}
+
+#hours {
+	float: left;
+	margin: 5px;
+}
+
+#directions {
+	float: right;
+	height: 400px;
+	width: 600px;
+	border: 3px solid black;
+	margin: 5px;
+}
+
+.location {
+
+}
+
+
 /*MENU STYLES*********************************************************/
 
 .menu {
@@ -136,18 +160,18 @@ footer {
 	border-top: 1px solid #999;
 }
 
-.section-row {
-	clear: both;
-	width: 99.4%;
-	/*border: 3px solid blue;*/
-}
-
 .menu-section {
 	border: 1px solid black;
 	margin-top: 5px;
 	margin-left: 13px;
 	width: 940px;
 	float:left;
+}
+
+.section-row {
+	clear: both;
+	width: 99.4%;
+	/*border: 3px solid blue;*/
 }
 
 .menu-segment {
