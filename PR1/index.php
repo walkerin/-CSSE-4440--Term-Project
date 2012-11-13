@@ -22,12 +22,12 @@
 			</header>
 			<nav class="clearfix">
 				<ul class="clearfix">
-					<li><a href="../PR1/layout.php?page=welcome">Home</a></li>
-					<li><a href="../PR1/layout.php?page=location">Location</a></li>
-					<li><a href="../PR1/layout.php?page=specials">Specials</a></li>
-					<li><a href="../PR1/layout.php?page=menu">Menu</a></li>
-					<li><a href="../PR1/layout.php?page=reservations">Reservations</a></li>
-					<li><a href="../PR1/layout.php?page=contact">Contact Us</a></li>
+					<li><a href="../PR1/index.php?page=welcome">Home</a></li>
+					<li><a href="../PR1/index.php?page=location">Location</a></li>
+					<li><a href="../PR1/index.php?page=specials">Specials</a></li>
+					<li><a href="../PR1/index.php?page=menu">Menu</a></li>
+					<li><a href="../PR1/index.php?page=reservations">Reservations</a></li>
+					<li><a href="../PR1/index.php?page=contact">Contact Us</a></li>
 				</ul>
 			</nav>
 

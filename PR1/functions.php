@@ -2,7 +2,10 @@
 	
 	function displayContent($page = "welcome")
 	{
-		include("$page.html"); 
+		if(!empty($page))
+			include("$page.html");
+		else
+			include("welcome.html");	
 	}
 	
 	function setElementClass($class = "welcome")
