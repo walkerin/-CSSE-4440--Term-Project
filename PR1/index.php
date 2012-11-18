@@ -1,12 +1,12 @@
-<?php require("functions.php"); ?>
+<?php require("functions.php"); //header("Content-type: text/plain"); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<!--[CSSE 4440] Term Project-->
 		<meta http-equiv="content-type" content ="text/html; charset=utf-8"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
 		<LINK href="../PR2/stylesheet.css" rel="stylesheet" type="text/css">
 		<title><?php setPageTitle($_GET['page']); ?></title>
-		<meta name="description" content="" />
 		<meta name="author" content="Glenn Bishop, David Enochs, Ian Walker" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
@@ -14,7 +14,6 @@
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	</head>
-
 	<body>
 		<div id="wrapper">
 			<header>

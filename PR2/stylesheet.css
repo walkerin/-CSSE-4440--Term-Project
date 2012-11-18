@@ -4,6 +4,10 @@
 	text-align:left;
 	border:1px dashed #333;
 	background-color:#eee;
+	border-style:solid; 
+	-webkit-box-shadow: 4px 2px  #222,  -4px 0 2px #222;   
+	-moz-box-shadow: 4px 0 2px #222,  -4px 0 2px #222;   
+	box-shadow: 4px 0 2px #222,  -4px 0 2px #222; 
 }
 
 header {
